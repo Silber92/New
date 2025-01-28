@@ -10,24 +10,30 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: url('PXL_20240616_204449444.PORTRAIT.jpg') no-repeat center center fixed; 
-            background-size: cover; /* Deckt den gesamten Hintergrund ab */
-            color: #fff; /* Weißer Text für bessere Lesbarkeit */
+            background-color: #e0f7fa; /* Heller Blauton */
+            color: #333; /* Dunkle Textfarbe für besseren Kontrast */
         }
         header {
-            background-color: rgba(2, 136, 209, 0.8); /* Halbtransparenter Hintergrund */
+            background-color: #0288d1; /* Dunkler Blauton für Header */
             color: #fff;
             padding: 10px 0;
             text-align: center;
         }
         main {
             padding: 20px;
-            background-color: rgba(0, 0, 0, 0.6); /* Halbtransparenter Hintergrund für den Textbereich */
-            margin: 20px;
-            border-radius: 10px;
+        }
+        .image-container {
+            text-align: center; /* Bild zentrieren */
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 80%; /* Bildbreite auf 80% der Seite begrenzen */
+            height: auto;
+            border-radius: 10px; /* Abgerundete Ecken */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatteneffekt */
         }
         footer {
-            background-color: rgba(2, 136, 209, 0.8); /* Halbtransparenter Hintergrund */
+            background-color: #0288d1; /* Dunkler Blauton für Footer */
             color: #fff;
             text-align: center;
             padding: 10px 0;
@@ -44,6 +50,9 @@
     <main>
         <h2>Über diese Webseite</h2>
         <p>Dies ist eine private Webseite, die derzeit noch keinen bestimmten Zweck erfüllt. Bleiben Sie gespannt auf zukünftige Inhalte!</p>
+        <div class="image-container">
+            <img src="PXL_20240616_204449444.PORTRAIT.jpg" alt="Großes Foto">
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 Lehre Blue. Alle Rechte vorbehalten.</p>
