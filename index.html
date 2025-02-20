@@ -32,6 +32,17 @@
             border-radius: 10px; /* Abgerundete Ecken */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatteneffekt */
         }
+        .outage-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .outage-container iframe {
+            width: 80%;
+            height: 600px; /* Höhe des iframes */
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatteneffekt */
+        }
         footer {
             background-color: #0288d1; /* Dunkler Blauton für Footer */
             color: #fff;
@@ -53,6 +64,10 @@
         <div class="image-container">
             <img src="PXL_20240616_204449444.PORTRAIT.jpg" alt="Großes Foto">
         </div>
+        <div class="outage-container">
+        <h2>Aktuelle Störungen</h2>
+        <iframe src="https://www.alle-störungen.de" title="Aktuelle Störungen"></iframe>
+    </div>
     </main>
     <footer>
         <p>&copy; 2025 Lehre Blue. Alle Rechte vorbehalten.</p>
